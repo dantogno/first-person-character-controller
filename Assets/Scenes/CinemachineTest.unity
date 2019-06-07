@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalPosition.z
@@ -280,6 +280,16 @@ PrefabInstance:
     - target: {fileID: 1391412528458524, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114164580211111474, guid: ba610f06beb62f1408f7e73166247735,
+        type: 3}
+      propertyPath: eyeHeight
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114164580211111474, guid: ba610f06beb62f1408f7e73166247735,
+        type: 3}
+      propertyPath: springDampening
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba610f06beb62f1408f7e73166247735, type: 3}
@@ -495,6 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1288844651}
   - component: {fileID: 1288844654}
+  - component: {fileID: 1288844653}
   - component: {fileID: 1288844652}
   m_Layer: 0
   m_Name: cm
@@ -526,19 +537,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288844650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 36d1163fa822e8b418a0a603ec078d5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: 0}
-  m_XDamping: 0
-  m_YDamping: 0
-  m_ZDamping: 0
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
+--- !u!114 &1288844653
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288844650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
+  m_AmplitudeGain: 1
+  m_FrequencyGain: 0.25
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &1288844654
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -885,7 +902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7726607, y: 0, z: -1.163003}
+  m_LocalPosition: {x: 2.7726607, y: 1.5, z: -1.163003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
