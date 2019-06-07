@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eyeTransform: {fileID: 4100051157197760}
-  eyeHeight: 1.7
+  eyeHeight: 1.5
   interpolationSpeed: 10
   springMass: 2
-  springDampening: 1.2
+  springDampening: 1.6
   springCoefficients: {x: 0.55, y: 0.95, z: 0.55}
 --- !u!1 &1391412528458524
 GameObject:
