@@ -18,8 +18,8 @@ public abstract class PlayerCamera : MonoBehaviour {
 
     //public DepthOfFieldAutoFocus autoFocus { get; private set; }
 
-    public virtual void OnSpawn(SpawnPoint spawnPoint) {
-    }
+    //public virtual void OnSpawn(SpawnPoint spawnPoint) {
+    //}
 
     public virtual void Simulate(Vector3 playerPosition, Vector3 playerAngles, float deltaTime) {
     }

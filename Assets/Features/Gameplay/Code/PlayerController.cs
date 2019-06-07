@@ -23,24 +23,24 @@ public class PlayerController : GameAgent {
         //playerFoley = GetComponent<PlayerFoley>();
     }
 
-    public override void OnSpawn(SpawnPoint spawnPoint, bool reset) {
-        base.OnSpawn(spawnPoint, reset);
+    //public override void OnSpawn(SpawnPoint spawnPoint, bool reset) {
+    //    base.OnSpawn(spawnPoint, reset);
 
-        var position = transform.localPosition;
-        var rotation = transform.localEulerAngles;
-        var angles = spawnPoint.transform.localEulerAngles;
+    //    var position = transform.localPosition;
+    //    var rotation = transform.localEulerAngles;
+    //    var angles = spawnPoint.transform.localEulerAngles;
 
-        if (playerCharacter)
-            playerCharacter.OnSpawn(angles, reset, characterController);
+    //    if (playerCharacter)
+    //        playerCharacter.OnSpawn(angles, reset, characterController);
 
-        playerCamera.OnSpawn(spawnPoint);
+    //    playerCamera.OnSpawn(spawnPoint);
 
-        position = transform.localPosition;
-        playerCamera.Warp(position, angles);
+    //    position = transform.localPosition;
+    //    playerCamera.Warp(position, angles);
 
-        for (int i = 0; i < 4; ++i)
-            playerCamera.Simulate(position, rotation, 0.1f);
-    }
+    //    for (int i = 0; i < 4; ++i)
+    //        playerCamera.Simulate(position, rotation, 0.1f);
+    //}
 
     protected void Update() {
         var transform = this.transform;

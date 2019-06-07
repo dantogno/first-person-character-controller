@@ -62,11 +62,11 @@ public abstract class GameAgent : MonoBehaviour {
     public virtual void OnBeforeSpawnPlayer(bool reset) {
     }
 
-    public virtual void OnAfterSpawnPlayer(SpawnPoint point, bool reset) {
-    }
+    //public virtual void OnAfterSpawnPlayer(SpawnPoint point, bool reset) {
+    //}
 
-    public virtual void OnSpawn(SpawnPoint spawnPoint, bool reset) {
-    }
+    //public virtual void OnSpawn(SpawnPoint spawnPoint, bool reset) {
+    //}
 
     public override string ToString() {
         if (!string.IsNullOrEmpty(agentIdentifier))
