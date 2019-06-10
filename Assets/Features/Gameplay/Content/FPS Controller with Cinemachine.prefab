@@ -489,11 +489,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
-    - target: {fileID: 114858968655866542, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
-        type: 3}
-      propertyPath: playerCamera
-      value: 
-      objectReference: {fileID: 6366077471388329462}
     - target: {fileID: 4925500326751968, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.7217278
@@ -538,7 +533,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114858968655866542, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 6366077471388329462}
+    m_RemovedComponents:
+    - {fileID: 1644653897, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
 --- !u!4 &6475118639590581275 stripped
 Transform:

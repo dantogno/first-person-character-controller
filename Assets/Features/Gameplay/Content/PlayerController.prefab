@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 114858968655866542}
   - component: {fileID: 114068675039078420}
   - component: {fileID: 143694335516209754}
+  - component: {fileID: 2210370895728199774}
   m_Layer: 8
   m_Name: PlayerController
   m_TagString: Player
@@ -46,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agentIdentifier: 
+  playerCamera: {fileID: 0}
 --- !u!114 &114068675039078420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,8 +92,20 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.8
   m_Radius: 0.4
-  m_SlopeLimit: 90
-  m_StepOffset: 0.4
+  m_SlopeLimit: 30
+  m_StepOffset: 0.25
   m_SkinWidth: 0.2
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!114 &2210370895728199774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467109007020134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77c6255cdb9b45428e7fbf4a574a7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
