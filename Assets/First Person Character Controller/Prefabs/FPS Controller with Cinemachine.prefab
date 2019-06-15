@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7217278, y: 0.92444175, z: 2.7616942}
+  m_LocalPosition: {x: 0, y: 0.92444175, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5065139984846716493}
@@ -411,7 +411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7217278
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalPosition.y
@@ -419,7 +419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7616942
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalRotation.x
@@ -452,6 +452,11 @@ PrefabInstance:
     - target: {fileID: 4493664658475394, guid: ba610f06beb62f1408f7e73166247735, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114164580211111474, guid: ba610f06beb62f1408f7e73166247735,
+        type: 3}
+      propertyPath: eyeHeight
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 114497849950561008, guid: ba610f06beb62f1408f7e73166247735,
         type: 3}
@@ -489,9 +494,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 1467109007020134, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 4925500326751968, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7217278
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4925500326751968, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -499,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4925500326751968, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7616942
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4925500326751968, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -533,13 +543,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 143694335516209754, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.19
+      objectReference: {fileID: 0}
     - target: {fileID: 114858968655866542, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
         type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 6366077471388329462}
-    m_RemovedComponents:
-    - {fileID: 1644653897, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
+    - target: {fileID: 114068675039078420, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: jumping.force
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068675039078420, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: jumping.dampSpeed
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068675039078420, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: locomotion.walkSpeed
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068675039078420, guid: 5b751e2c3ed3eb640abb2fb185a2221a,
+        type: 3}
+      propertyPath: locomotion.runSpeed
+      value: 4.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b751e2c3ed3eb640abb2fb185a2221a, type: 3}
 --- !u!4 &6475118639590581275 stripped
 Transform:
