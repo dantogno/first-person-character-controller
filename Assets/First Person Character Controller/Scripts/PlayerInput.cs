@@ -146,7 +146,7 @@ public static class PlayerInputMappingExtensions
     {
         return new PlayerInput {
             move = new Vector2(Input.GetAxis(mapping.moveX), Input.GetAxis(mapping.moveY)),
-            look = new Vector2(Input.GetAxis(mapping.lookY), Input.GetAxis(mapping.lookX)),
+            look = new Vector2(Input.GetAxis(mapping.lookY) * -1, Input.GetAxis(mapping.lookX)),
             run = Input.GetButton(mapping.run) ? 1f : 0f,
             jump = Input.GetButtonDown(mapping.jump)
         };
