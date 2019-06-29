@@ -2,6 +2,10 @@
 A simplified, stripped down version of the Book of the Dead player controller, including a version that incorporates a Cinemachine camera. Useful for quick prototyping and first person narrative games.
 
 # Prerequisites
+## Post Processing
+Use a project template that includes post processing, or install the [Post Processing package](https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Installation.html) from the Unity Package Manager. Alternatively, you can remove the **PostProcessingLayer** component from the **Main Camera** GameObject. This will likely display as "missing script" if you do not have the Post Processing package installed.
+
+## [Optional] Cinemachine
 In order to use the Cinemachine version of the character controller, be sure to first install the [Cinemachine package](https://unity.com/unity/features/editor/art-and-design/cinemachine) using the Unity Package Manager.
 
 # Installation
