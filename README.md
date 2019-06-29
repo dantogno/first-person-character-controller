@@ -1,2 +1,2 @@
 # fps-controller
-Based on the Book of the Dead player.
+A simplified, stripped down version of the Book of the Dead player controller. Useful for prototyping or first person narrative games.
