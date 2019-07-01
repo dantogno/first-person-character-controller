@@ -1,5 +1,5 @@
 # Overview
-A simplified, stripped down version of the Book of the Dead player controller, including a version that incorporates a Cinemachine camera. Useful for quick prototyping and first person narrative games.
+A simplified, stripped down version of the Book of the Dead player controller, including a version that incorporates a Cinemachine camera. Useful for quick prototyping and first person narrative games. Specifically, the complex (but admittedly cool) footstep and depth of field features have been removed. Maybe I'll add simpler versions of these features at a later date.
 
 # Prerequisites
 ## Post Processing
